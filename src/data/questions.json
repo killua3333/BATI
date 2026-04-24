@@ -1,0 +1,444 @@
+[
+  {
+    "id": 1,
+    "dimension": "usage",
+    "prompt": "练习赛开局第一个回合，你更愿意怎么参与？",
+    "options": [
+      {
+        "key": "A",
+        "text": "先在弱侧跑位等机会",
+        "score": 1
+      },
+      {
+        "key": "B",
+        "text": "去弧顶接应后再读防守",
+        "score": 2
+      },
+      {
+        "key": "C",
+        "text": "直接要球指挥进攻",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "dimension": "usage",
+    "prompt": "你所在的组合连续两回合没得分，你会？",
+    "options": [
+      {
+        "key": "A",
+        "text": "继续打无球拉开空间",
+        "score": 1
+      },
+      {
+        "key": "B",
+        "text": "主动做挡拆帮队友起速",
+        "score": 2
+      },
+      {
+        "key": "C",
+        "text": "示意全队这球由你来处理",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "dimension": "usage",
+    "prompt": "终场前分差很小，你在布置战术时的第一想法是？",
+    "options": [
+      {
+        "key": "A",
+        "text": "我可以当牵制点为队友让路",
+        "score": 1
+      },
+      {
+        "key": "B",
+        "text": "根据包夹选择自投或分球",
+        "score": 2
+      },
+      {
+        "key": "C",
+        "text": "这球拉开由我单打终结",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "dimension": "range",
+    "prompt": "防守人给你一步空间，你的首选是？",
+    "options": [
+      {
+        "key": "A",
+        "text": "加速直杀筐下",
+        "score": 1
+      },
+      {
+        "key": "B",
+        "text": "一运到中距离出手",
+        "score": 2
+      },
+      {
+        "key": "C",
+        "text": "直接三分惩罚",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "dimension": "range",
+    "prompt": "加练环节你最愿意投入时间到？",
+    "options": [
+      {
+        "key": "A",
+        "text": "近框终结与脚步",
+        "score": 1
+      },
+      {
+        "key": "B",
+        "text": "肘区技巧和急停跳投",
+        "score": 2
+      },
+      {
+        "key": "C",
+        "text": "超远三分与后撤步",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "dimension": "range",
+    "prompt": "反击形成二打一时，你最爱的终结方式是？",
+    "options": [
+      {
+        "key": "A",
+        "text": "冲框打成高效两分",
+        "score": 1
+      },
+      {
+        "key": "B",
+        "text": "稳稳停在罚球线附近出手",
+        "score": 2
+      },
+      {
+        "key": "C",
+        "text": "在弧顶外张手就投",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "dimension": "physical",
+    "prompt": "突破迎来高大补防时，你通常会？",
+    "options": [
+      {
+        "key": "A",
+        "text": "用脚步和抹投解决",
+        "score": 1
+      },
+      {
+        "key": "B",
+        "text": "主动找对抗拿杀伤",
+        "score": 2
+      },
+      {
+        "key": "C",
+        "text": "顶着对抗强起终结",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "dimension": "physical",
+    "prompt": "防守端对位更壮的球员时，你会？",
+    "options": [
+      {
+        "key": "A",
+        "text": "提前占位靠预判干扰",
+        "score": 1
+      },
+      {
+        "key": "B",
+        "text": "用力顶住不轻易失位",
+        "score": 2
+      },
+      {
+        "key": "C",
+        "text": "给满身体对抗绝不让步",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "dimension": "physical",
+    "prompt": "抢下篮板后被贴身逼防，你更常用哪种推进方式？",
+    "options": [
+      {
+        "key": "A",
+        "text": "变向摆脱后带过半场",
+        "score": 1
+      },
+      {
+        "key": "B",
+        "text": "护好球稳稳推进",
+        "score": 2
+      },
+      {
+        "key": "C",
+        "text": "用力量直接压着走",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "dimension": "playmaking",
+    "prompt": "你在侧翼被包夹时，往往会怎么决策？",
+    "options": [
+      {
+        "key": "A",
+        "text": "抢在包夹合围前强行终结",
+        "score": 1
+      },
+      {
+        "key": "B",
+        "text": "立即出球给最近空位",
+        "score": 2
+      },
+      {
+        "key": "C",
+        "text": "预判轮转送出直接助攻",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "dimension": "playmaking",
+    "prompt": "阵地战节奏乱了的时候，你会？",
+    "options": [
+      {
+        "key": "A",
+        "text": "先尝试自己打成止血",
+        "score": 1
+      },
+      {
+        "key": "B",
+        "text": "把球转移到更好的决策点",
+        "score": 2
+      },
+      {
+        "key": "C",
+        "text": "立即叫战术重新组织",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "dimension": "playmaking",
+    "prompt": "今天手感一般，你更想用哪种方式帮球队？",
+    "options": [
+      {
+        "key": "A",
+        "text": "多冲前场篮板拿二次进攻",
+        "score": 1
+      },
+      {
+        "key": "B",
+        "text": "做掩护和连续传导",
+        "score": 2
+      },
+      {
+        "key": "C",
+        "text": "站弧顶指挥跑位分配",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "dimension": "defense",
+    "prompt": "对面头号得分手连续命中时，你的态度是？",
+    "options": [
+      {
+        "key": "A",
+        "text": "尽量不接主防任务",
+        "score": 1
+      },
+      {
+        "key": "B",
+        "text": "按教练要求完成轮转",
+        "score": 2
+      },
+      {
+        "key": "C",
+        "text": "主动请缨对位锁死",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "dimension": "defense",
+    "prompt": "队友漏人对手要空蓝时，你会？",
+    "options": [
+      {
+        "key": "A",
+        "text": "准备下一回合防守",
+        "score": 1
+      },
+      {
+        "key": "B",
+        "text": "尽量收缩干扰一下",
+        "score": 2
+      },
+      {
+        "key": "C",
+        "text": "全速补防不惜代价",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "dimension": "defense",
+    "prompt": "若只选一项防守目标，你更在乎？",
+    "options": [
+      {
+        "key": "A",
+        "text": "守住战术第一选择",
+        "score": 1
+      },
+      {
+        "key": "B",
+        "text": "确保轮转无漏人",
+        "score": 2
+      },
+      {
+        "key": "C",
+        "text": "亲自造成抢断或盖帽",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "dimension": "temperament",
+    "prompt": "投进关键球后，你的第一反应通常是？",
+    "options": [
+      {
+        "key": "A",
+        "text": "情绪稳定继续执行",
+        "score": 1
+      },
+      {
+        "key": "B",
+        "text": "和队友交流互相鼓励",
+        "score": 2
+      },
+      {
+        "key": "C",
+        "text": "高点情绪带动全场",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "dimension": "temperament",
+    "prompt": "开局连续投丢时，你会怎么做？",
+    "options": [
+      {
+        "key": "A",
+        "text": "保持平稳不受影响",
+        "score": 1
+      },
+      {
+        "key": "B",
+        "text": "调整选择重新找感觉",
+        "score": 2
+      },
+      {
+        "key": "C",
+        "text": "用更强进攻欲望回应",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "dimension": "temperament",
+    "prompt": "遇到争议判罚和对抗摩擦时，你更可能？",
+    "options": [
+      {
+        "key": "A",
+        "text": "忽略外界影响继续比赛",
+        "score": 1
+      },
+      {
+        "key": "B",
+        "text": "理性沟通并提醒队友",
+        "score": 2
+      },
+      {
+        "key": "C",
+        "text": "强硬回击展现态度",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "dimension": "temperament",
+    "prompt": "裁判吹了你一个极具争议的体毛犯规，你会？",
+    "options": [
+      {
+        "key": "A",
+        "text": "摇摇头什么都不说，直接走开准备下一个回合。",
+        "score": 1
+      },
+      {
+        "key": "B",
+        "text": "找裁判简单沟通两句，问清楚吹罚尺度，但不会纠缠。",
+        "score": 2
+      },
+      {
+        "key": "C",
+        "text": "暴跳如雷，冲着裁判大喊大叫，哪怕吃技术犯规也要发泄不满。",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "dimension": "temperament",
+    "hiddenTrigger": true,
+    "prompt": "隐藏题：输球且遭遇恶意犯规后，赛后你会怎么做？",
+    "options": [
+      {
+        "key": "A",
+        "text": "泡冰桶复盘录像，下次在球场正面回应",
+        "score": 1
+      },
+      {
+        "key": "B",
+        "text": "在媒体发布会公开点名批评",
+        "score": 3
+      },
+      {
+        "key": "C",
+        "text": "切换到社交平台开始高强度对线",
+        "score": 3,
+        "triggers": "keyboard-warrior"
+      }
+    ]
+  }
+]

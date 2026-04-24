@@ -1,0 +1,482 @@
+[
+  {
+    "id": "lebron-james",
+    "index": 1,
+    "name": "勒布朗·詹姆斯",
+    "enName": "LeBron James",
+    "vector": {
+      "usage": 3,
+      "range": 2,
+      "physical": 3,
+      "playmaking": 3,
+      "defense": 3,
+      "temperament": 2
+    },
+    "style": "自带体系的重型推土机，从一号位打到五号位甚至能客串主教练，视野和终结能力都在大气层。",
+    "personality": "极其自律的商业大亨与心思缜密的老汉，虽然偶尔喜欢摊手向裁判要说法，但关键时刻绝不手软。"
+  },
+  {
+    "id": "stephen-curry",
+    "index": 2,
+    "name": "斯蒂芬·库里",
+    "enName": "Stephen Curry",
+    "vector": {
+      "usage": 2,
+      "range": 3,
+      "physical": 1,
+      "playmaking": 2,
+      "defense": 2,
+      "temperament": 2
+    },
+    "style": "用历史第一的三分球和无休止的跑动改变了现代篮球版图，防守人连眨眼都不敢。",
+    "personality": "长着娃娃脸的无情杀手，赢球后喜欢摇头晃脑，晚安庆祝动作的祖师爷，在场上总有一种举重若轻的快乐。"
+  },
+  {
+    "id": "kevin-durant",
+    "index": 3,
+    "name": "凯文·杜兰特",
+    "enName": "Kevin Durant",
+    "vector": {
+      "usage": 2,
+      "range": 2,
+      "physical": 2,
+      "playmaking": 1,
+      "defense": 2,
+      "temperament": 1
+    },
+    "style": "拥有中锋身高和后卫技术的无差别单打机器，这辈子最大的爱好就是干拔投篮，无视任何防守。",
+    "personality": "心思细腻的篮球痴汉，场上冷血无情，场下也许正拿着手机在评论区和网友进行”高强度友好交流”。"
+  },
+  {
+    "id": "giannis-antetokounmpo",
+    "index": 4,
+    "name": "扬尼斯·阿德托昆博",
+    "enName": "Giannis Antetokounmpo",
+    "vector": {
+      "usage": 3,
+      "range": 1,
+      "physical": 3,
+      "playmaking": 2,
+      "defense": 3,
+      "temperament": 3
+    },
+    "style": "靠着不讲理的步幅和野兽般的身体素质生吞活剥对手，三分线起步上篮对他来说属于常规操作。",
+    "personality": "永远保持饥饿感的希腊怪兽，平时是个喜欢讲冷笑话的憨憨，可一旦踏上球场就会变成随时引爆的火药桶。"
+  },
+  {
+    "id": "kobe-bryant",
+    "index": 5,
+    "name": "科比·布莱恩特",
+    "enName": "Kobe Bryant",
+    "vector": {
+      "usage": 3,
+      "range": 2,
+      "physical": 2,
+      "playmaking": 2,
+      "defense": 3,
+      "temperament": 3
+    },
+    "style": "把篮球技术打磨到了极致的艺术品，你明知道他要后仰跳投，但你就是防不住他的美如画。",
+    "personality": "偏执到了骨子里的战斗狂人，凌晨四点的洛杉矶见证了他对胜利近乎病态的渴望，永不服输的代名词。"
+  },
+  {
+    "id": "shaquille-o-neal",
+    "index": 6,
+    "name": "沙奎尔·奥尼尔",
+    "enName": "Shaquille O’Neal",
+    "vector": {
+      "usage": 3,
+      "range": 1,
+      "physical": 3,
+      "playmaking": 1,
+      "defense": 2,
+      "temperament": 3
+    },
+    "style": "挂着三个人也能把球扣进的内线巨兽，物理学在他的力量面前暂时失效，直接摧毁篮筐。",
+    "personality": "拥有巨大体型的全能喜剧人，场上残暴场下耍宝，如果非要说他有什么弱点，那只能是那该死的罚球线。"
+  },
+  {
+    "id": "klay-thompson",
+    "index": 7,
+    "name": "克莱·汤普森",
+    "enName": "Klay Thompson",
+    "vector": {
+      "usage": 1,
+      "range": 3,
+      "physical": 2,
+      "playmaking": 1,
+      "defense": 3,
+      "temperament": 1
+    },
+    "style": "不需要运球就能砍下高分的奇男子，极其冷血的三分机器和让对手绝望的外线大闸。",
+    "personality": "大智若愚的佛祖，可以悠闲地坐在替补席上看报纸折纸飞机，也可以在绝境中投出最致命的子弹。"
+  },
+  {
+    "id": "nikola-joki",
+    "index": 8,
+    "name": "尼古拉·约基奇",
+    "enName": "Nikola Jokić",
+    "vector": {
+      "usage": 3,
+      "range": 2,
+      "physical": 2,
+      "playmaking": 3,
+      "defense": 2,
+      "temperament": 1
+    },
+    "style": "跑不快也跳不高，但凭着上帝视角的传球和柔和的手感，硬生生把篮球玩成了国际象棋。",
+    "personality": "把打球当上班的塞尔维亚胖子，一门心思只想下班回家骑马喝可乐，却一不小心拿了一堆"
+  },
+  {
+    "id": "kyrie-irving",
+    "index": 9,
+    "name": "凯里·欧文",
+    "enName": "Kyrie Irving",
+    "vector": {
+      "usage": 2,
+      "range": 2,
+      "physical": 1,
+      "playmaking": 2,
+      "defense": 1,
+      "temperament": 2
+    },
+    "style": "进攻端的人类想象力天花板，每一次突破都像是在防守人脚踝上跳舞，真正的进攻博物馆。",
+    "personality": "思想境界在大气层外的神仙，球风华丽到不真实，你永远猜不透他下一步要干什么，无论场上还是场下。"
+  },
+  {
+    "id": "james-harden",
+    "index": 10,
+    "name": "詹姆斯·哈登",
+    "enName": "James Harden",
+    "vector": {
+      "usage": 3,
+      "range": 3,
+      "physical": 2,
+      "playmaking": 3,
+      "defense": 1,
+      "temperament": 2
+    },
+    "style": "把规则和数学利用到极致的魔球祖师爷，靠着后撤步三分和突破分球就能驱动整支球队。",
+    "personality": "极其聪明的节奏大师，虽然防守端偶尔眼神迷离，但在进攻端绝对是高智商天才，深谙以柔克刚之道。"
+  },
+  {
+    "id": "luka-don-i",
+    "index": 11,
+    "name": "卢卡·东契奇",
+    "enName": "Luka Dončić",
+    "vector": {
+      "usage": 3,
+      "range": 3,
+      "physical": 2,
+      "playmaking": 3,
+      "defense": 1,
+      "temperament": 3
+    },
+    "style": "看着慢吞吞却能把防守人晃得找不着北，用极其诡异的节奏和顿挫感惩罚所有对位者。",
+    "personality": "拥有老头般球商的年轻胖子，喜欢在场上边打球边笑，投进神仙绝杀后总是笑得像个迷人的反派角色。"
+  },
+  {
+    "id": "kawhi-leonard",
+    "index": 12,
+    "name": "科怀·伦纳德",
+    "enName": "Kawhi Leonard",
+    "vector": {
+      "usage": 2,
+      "range": 2,
+      "physical": 3,
+      "playmaking": 2,
+      "defense": 3,
+      "temperament": 1
+    },
+    "style": "极其精确且致命的中距离刺客，那双死亡缠绕的大手能在防守端让所有外线球员感到绝望。",
+    "personality": "真正意义上的篮球人工智能，进球没有表情，绝杀没有表情，连夺冠时的笑声都像是一段被硬编码的程序。"
+  },
+  {
+    "id": "jimmy-butler",
+    "index": 13,
+    "name": "吉米·巴特勒",
+    "enName": "Jimmy Butler",
+    "vector": {
+      "usage": 2,
+      "range": 2,
+      "physical": 2,
+      "playmaking": 2,
+      "defense": 3,
+      "temperament": 3
+    },
+    "style": "没有极其华丽的技术，全靠咬碎牙齿的强硬和造犯规惩罚对手，常规赛装死，季后赛杀神。",
+    "personality": "极度争强好胜的硬汉，可以带着一群替补打爆主力，如果他冲你怒吼，你最好马上把球传给他。"
+  },
+  {
+    "id": "draymond-green",
+    "index": 14,
+    "name": "德雷蒙德·格林",
+    "enName": "Draymond Green",
+    "vector": {
+      "usage": 1,
+      "range": 1,
+      "physical": 2,
+      "playmaking": 3,
+      "defense": 3,
+      "temperament": 3
+    },
+    "style": "没有球权也能影响比赛的奇才，弧顶发牌的祖师爷，用密不透风的防守和协防撑起球队体系。",
+    "personality": "行走的火药桶和球队大喇叭，永远充满激情，偶尔会控制不住自己的四肢，但绝对是队友最想依靠的恶人。"
+  },
+  {
+    "id": "russell-westbrook",
+    "index": 15,
+    "name": "拉塞尔·威斯布鲁克",
+    "enName": "Russell Westbrook",
+    "vector": {
+      "usage": 3,
+      "range": 2,
+      "physical": 3,
+      "playmaking": 3,
+      "defense": 2,
+      "temperament": 3
+    },
+    "style": "永远挂着五档冲锋的重型控卫，把球场当田径场，用不枯竭的能量和爆发力摧毁防线。",
+    "personality": "直来直去的性情中人，眼里只有篮筐和胜利，哪怕投篮打铁也会在下一个回合继续奋不顾身地杀入内线。"
+  },
+  {
+    "id": "rudy-gobert",
+    "index": 16,
+    "name": "鲁迪·戈贝尔",
+    "enName": "Rudy Gobert",
+    "vector": {
+      "usage": 1,
+      "range": 1,
+      "physical": 3,
+      "playmaking": 1,
+      "defense": 3,
+      "temperament": 2
+    },
+    "style": "禁区里的叹息之墙，虽然进攻端极其依赖喂饼，但在防守端能一个人罩住整个三分线内。",
+    "personality": "勤勤恳恳的法国高塔，脾气不错但有时容易吃暗亏，是所有外线防守漏勺最坚实的后盾和擦屁股大师。"
+  },
+  {
+    "id": "chris-paul",
+    "index": 17,
+    "name": "克里斯·保罗",
+    "enName": "Chris Paul",
+    "vector": {
+      "usage": 3,
+      "range": 2,
+      "physical": 1,
+      "playmaking": 3,
+      "defense": 3,
+      "temperament": 3
+    },
+    "style": "传统控卫的终极形态，极其严谨的半场阵地指挥官，用中距离和传球把对方安排得明明白白。",
+    "personality": "极度较真的球场老炮，能把规则倒背如流，较真起来甚至会因为对手球衣没扎好而向裁判实名举报。"
+  },
+  {
+    "id": "damian-lillard",
+    "index": 18,
+    "name": "达米安·利拉德",
+    "enName": "Damian Lillard",
+    "vector": {
+      "usage": 3,
+      "range": 3,
+      "physical": 1,
+      "playmaking": 3,
+      "defense": 1,
+      "temperament": 1
+    },
+    "style": "射程远及中圈的冷血杀手，突破极具爆发力，只要比赛进入最后两分钟，他就会接管一切。",
+    "personality": "忠诚且大心脏的孤胆英雄，平时沉默寡言，一旦抬手看表，对面的教练就该准备叫暂停了。"
+  },
+  {
+    "id": "anthony-davis",
+    "index": 19,
+    "name": "安东尼·戴维斯",
+    "enName": "Anthony Davis",
+    "vector": {
+      "usage": 2,
+      "range": 1,
+      "physical": 3,
+      "playmaking": 1,
+      "defense": 3,
+      "temperament": 2
+    },
+    "style": "拥有后卫技术的内线长人，防守端遮天蔽日，进攻端是完美的吃饼和中距离大师。",
+    "personality": "天赋溢出屏幕的超级大个子，虽然总是让球迷提心吊胆怕他受伤，但只要健康站在场上，他就是所有对位的噩梦。"
+  },
+  {
+    "id": "tim-duncan",
+    "index": 20,
+    "name": "蒂姆·邓肯",
+    "enName": "Tim Duncan",
+    "vector": {
+      "usage": 2,
+      "range": 2,
+      "physical": 2,
+      "playmaking": 2,
+      "defense": 3,
+      "temperament": 1
+    },
+    "style": "把最简单的打板投篮和内线脚步练到极致，像一台设定了超长使用寿命的精密机器。",
+    "personality": "毫无情绪波动的心理学大师，偶尔会在替补席偷笑被罚出场，用最平淡的面孔摧毁对手的心理防线。"
+  },
+  {
+    "id": "trae-young",
+    "index": 21,
+    "name": "特雷·杨",
+    "enName": "Trae Young",
+    "vector": {
+      "usage": 3,
+      "range": 3,
+      "physical": 1,
+      "playmaking": 3,
+      "defense": 1,
+      "temperament": 3
+    },
+    "style": "极度依赖挡拆的超远射手，用华丽的抛投和穿裆传球在长人林立的内线夹缝中生存。",
+    "personality": "天生的反派角色，喜欢在客场享受满天嘘声，并在投进绝杀后向全场观众做出绅士鞠躬的挑衅手势。"
+  },
+  {
+    "id": "zion-williamson",
+    "index": 22,
+    "name": "锡安·威廉森",
+    "enName": "Zion Williamson",
+    "vector": {
+      "usage": 2,
+      "range": 1,
+      "physical": 3,
+      "playmaking": 2,
+      "defense": 1,
+      "temperament": 2
+    },
+    "style": "完全不符合物理学定律的重装飞行器，用纯粹的爆发力和恐怖的吨位在内线翻江倒海。",
+    "personality": "笑容极其灿烂的内线野兽，只要他在天上飞，无论是对手还是自家的篮筐都会感到深深的恐惧。"
+  },
+  {
+    "id": "paul-george",
+    "index": 23,
+    "name": "保罗·乔治",
+    "enName": "Paul George",
+    "vector": {
+      "usage": 2,
+      "range": 3,
+      "physical": 2,
+      "playmaking": 2,
+      "defense": 3,
+      "temperament": 2
+    },
+    "style": "攻防两端都挑不出毛病的完美侧翼，投篮动作极其丝滑美观，主打一个怎么投怎么好看。",
+    "personality": "脾气温和的绝佳二当家，神鬼莫测，偶尔会在关键时刻拉胯，但一旦找到了节奏，他就是无可阻挡的大将军。"
+  },
+  {
+    "id": "bam-adebayo",
+    "index": 24,
+    "name": "巴姆·阿德巴约",
+    "enName": "Bam Adebayo",
+    "vector": {
+      "usage": 2,
+      "range": 1,
+      "physical": 2,
+      "playmaking": 2,
+      "defense": 3,
+      "temperament": 2
+    },
+    "style": "能从一号位防到五号位的万金油，完美的小球时代内线挡拆掩护墙和手递手发牌机。",
+    "personality": "踏实肯干的蓝领核心，不争不抢，哪里需要补哪里，是教练最喜欢的那种永远不会抱怨的好学生。"
+  },
+  {
+    "id": "devin-booker",
+    "index": 25,
+    "name": "德文·布克",
+    "enName": "Devin Booker",
+    "vector": {
+      "usage": 2,
+      "range": 2,
+      "physical": 2,
+      "playmaking": 2,
+      "defense": 2,
+      "temperament": 3
+    },
+    "style": "继承了老派分卫衣钵的中距离杀手，不仅能无球跑动，也能在陷入僵局时用强硬单打解决问题。",
+    "personality": "极具胜负欲的少爷，面对包夹时偶尔会显得有些急躁，但对胜利的极度渴望让他始终保持着极高的攻击性。"
+  },
+  {
+    "id": "shai-gilgeous-alexander",
+    "index": 26,
+    "name": "谢伊·吉尔杰斯-亚历山大",
+    "enName": "Shai Gilgeous-Alexander",
+    "vector": {
+      "usage": 3,
+      "range": 2,
+      "physical": 1,
+      "playmaking": 2,
+      "defense": 3,
+      "temperament": 1
+    },
+    "style": "用无数的减速、假动作和极限腰腹力量在内线穿梭，古典与现代结合的最强突破手，极其丝滑。",
+    "personality": "冷静得让人害怕的时尚达人，场下穿搭走在潮流前线，场上一旦拿到球，就会变成不带一丝感情的得分机器。"
+  },
+  {
+    "id": "victor-wembanyama",
+    "index": 27,
+    "name": "维克托·文班亚马",
+    "enName": "Victor Wembanyama",
+    "vector": {
+      "usage": 2,
+      "range": 2,
+      "physical": 1,
+      "playmaking": 2,
+      "defense": 3,
+      "temperament": 2
+    },
+    "style": "拥有中锋的身高、锋线的臂展和后卫的技术，可以在三分线外运球变向然后直接起步扣篮，防守端覆盖全场。",
+    "personality": "打破一切常规定义的篮球变种人，他甚至还不知道自己的极限在哪里，但已经让全联盟感到头皮发麻。"
+  },
+  {
+    "id": "dennis-rodman",
+    "index": 28,
+    "name": "丹尼斯·罗德曼",
+    "enName": "Dennis Rodman",
+    "vector": {
+      "usage": 1,
+      "range": 1,
+      "physical": 3,
+      "playmaking": 1,
+      "defense": 3,
+      "temperament": 3
+    },
+    "style": "眼中只有篮板球的狂热分子，愿意为了一个地板球飞出场外，防守端能把对位者烦到想退役。",
+    "personality": "行为艺术的先驱，头发颜色比球鞋还多，场外绯闻不断，但只要上了场，他就是最凶狠、最纯粹的恶犬。"
+  },
+  {
+    "id": "tyrese-haliburton",
+    "index": 29,
+    "name": "泰瑞斯·哈利伯顿",
+    "enName": "Tyrese Haliburton",
+    "vector": {
+      "usage": 3,
+      "range": 3,
+      "physical": 1,
+      "playmaking": 3,
+      "defense": 1,
+      "temperament": 2
+    },
+    "style": "打球像推快攻机器，永远在寻找处于空位的队友，用极具个人特色的推射三分疯狂惩罚对手。",
+    "personality": "球商极高的乐天派，打球极其灵动飘逸，如果你喜欢看行云流水的全场进攻，他就是你的最佳赛场大脑。"
+  },
+  {
+    "id": "anthony-edwards",
+    "index": 30,
+    "name": "安东尼·爱德华兹",
+    "enName": "Anthony Edwards",
+    "vector": {
+      "usage": 3,
+      "range": 2,
+      "physical": 3,
+      "playmaking": 2,
+      "defense": 2,
+      "temperament": 3
+    },
+    "style": "拥有极致爆发力的侧翼得分手，极其喜欢在对方头上完成暴力隔扣，充满不讲理的美式英雄主义色彩。",
+    "personality": "狂傲不羁的自信小子，坚信自己能打爆所有人，只要他开口说话，就是一档收视率拉满的脱口秀节目。"
+  }
+]

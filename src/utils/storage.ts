@@ -1,0 +1,1 @@
+export const storage={ get<T>(key:string,fallback:T){ const raw = localStorage.getItem(key); return raw ? JSON.parse(raw) as T : fallback; }, set(key:string,value:unknown){ localStorage.setItem(key, JSON.stringify(value)); } };
