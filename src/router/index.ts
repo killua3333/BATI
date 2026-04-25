@@ -1,4 +1,4 @@
-import { createRouter, createWebHistory } from 'vue-router';
+import { createRouter, createWebHashHistory } from 'vue-router';
 import HomePage from '../pages/HomePage.vue';
 import QuizPage from '../pages/QuizPage.vue';
 import ResultPage from '../pages/ResultPage.vue';
@@ -7,7 +7,7 @@ import StatsPage from '../pages/StatsPage.vue';
 import AboutPage from '../pages/AboutPage.vue';
 
 export default createRouter({
-  history: createWebHistory(),
+  history: createWebHashHistory(),
   routes:[
     {path:'/',component:HomePage},
     {path:'/quiz',component:QuizPage},
