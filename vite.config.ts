@@ -3,8 +3,8 @@ import vue from '@vitejs/plugin-vue';
 
 export default defineConfig({
   plugins: [vue()],
-  // TODO: 请改成你的 Gitee 仓库名路径，例如 '/bati/' 或 '/你的仓库名/'
-  base: '/bati/',
+  // Cloudflare Pages 通常使用根路径部署
+  base: '/',
   build: {
     outDir: 'dist'
   }

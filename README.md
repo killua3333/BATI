@@ -20,7 +20,9 @@ BATI（Basketball Archetype Type Indicator）是一个基于 Vue 3 + TypeScript 
 - Vue 3
 - TypeScript
 - Vite
-- Vue Router
+- Vue Router（Hash 模式）
+- Cloudflare Pages（静态托管 + Pages Functions）
+- Cloudflare D1（结果存储）
 
 ## 本地启动
 
@@ -36,6 +38,28 @@ npm run dev
 ```bash
 npm run build
 npm run preview
+```
+
+## Cloudflare 部署与 D1
+
+1. 在 Cloudflare 创建 D1 数据库，并把 `wrangler.toml` 的 `database_id` 改成真实值
+2. 首次执行迁移建表：
+
+```bash
+npm run d1:migrate:remote
+```
+
+3. 本地联调静态资源 + Functions + D1：
+
+```bash
+npm run build
+npm run cf:dev
+```
+
+4. 部署到 Cloudflare Pages：
+
+```bash
+npm run cf:deploy
 ```
 
 ## 项目结构（核心）

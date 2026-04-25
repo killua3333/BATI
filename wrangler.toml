@@ -1,0 +1,10 @@
+name = "bati"
+compatibility_date = "2026-04-25"
+
+pages_build_output_dir = "dist"
+
+[[d1_databases]]
+binding = "BATI_DB"
+database_name = "bati-db"
+# TODO: 替换为你在 Cloudflare 控制台创建的 D1 database_id
+database_id = "REPLACE_WITH_YOUR_D1_DATABASE_ID"
