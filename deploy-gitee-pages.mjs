@@ -8,6 +8,19 @@ const run = (command, cwd = process.cwd()) => {
   execSync(command, { cwd, stdio: 'inherit' });
 };
 
+const getGitConfigValue = (key, cwd) => {
+  try {
+    return execSync(`git config --get ${key}`, {
+      cwd,
+      stdio: ['ignore', 'pipe', 'ignore']
+    })
+      .toString()
+      .trim();
+  } catch {
+    return '';
+  }
+};
+
 const main = async () => {
   const repo = process.env.GITEE_REPO || process.argv[2];
   const branch = process.env.GITEE_PAGES_BRANCH || 'pages';
@@ -24,6 +37,8 @@ const main = async () => {
 
   const projectRoot = process.cwd();
   const distDir = path.join(projectRoot, 'dist');
+  const userName = getGitConfigValue('user.name', projectRoot);
+  const userEmail = getGitConfigValue('user.email', projectRoot);
 
   run('npm run build', projectRoot);
 
@@ -36,6 +51,12 @@ const main = async () => {
 
   run('git init', distDir);
   run('git checkout -B temp-pages', distDir);
+  if (userName) {
+    run(`git config user.name "${userName}"`, distDir);
+  }
+  if (userEmail) {
+    run(`git config user.email "${userEmail}"`, distDir);
+  }
   run('git add .', distDir);
   run(`git commit -m "${commitMessage}"`, distDir);
   run(`git push -f ${repo} HEAD:${branch}`, distDir);
