@@ -6,18 +6,20 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc -b && vite build",
-    "preview": "vite preview",
+    "preview": "npm run build && wrangler dev",
     "cf:dev": "wrangler pages dev dist --d1=BATI_DB",
     "cf:deploy": "npm run build && npx wrangler pages deploy dist",
     "d1:migrate:local": "wrangler d1 migrations apply BATI_DB --local",
-    "d1:migrate:remote": "wrangler d1 migrations apply BATI_DB --remote"
+    "d1:migrate:remote": "wrangler d1 migrations apply BATI_DB --remote",
+    "deploy": "npm run build && wrangler deploy"
   },
   "devDependencies": {
+    "@cloudflare/vite-plugin": "^1.33.2",
     "@vitejs/plugin-vue": "^6.0.6",
     "typescript": "~6.0.2",
     "vite": "^8.0.10",
     "vue-tsc": "^3.2.7",
-    "wrangler": "^4.40.0"
+    "wrangler": "^4.85.0"
   },
   "dependencies": {
     "vue": "^3.5.33",
